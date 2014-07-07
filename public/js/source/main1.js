@@ -24,6 +24,13 @@
     $('#project5').mouseleave(hidePr5);
     $('#project6').mouseenter(showPr6);
     $('#project6').mouseleave(hidePr6);
+    $('#project4 a').click(comingSoon);
+    $('#project5 a').click(comingSoon);
+    $('#project6 a').click(comingSoon);
+  }
+
+  function comingSoon(){
+    alert('coming soon!');
   }
 
   function showPr1(){
