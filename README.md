@@ -1,3 +1,3 @@
 Online-Portfolio
 -------
-http://delacqua.us
+delacqua.us
