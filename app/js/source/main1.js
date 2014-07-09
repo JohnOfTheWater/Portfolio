@@ -6,6 +6,12 @@
 
   function initialize(){
     $(document).foundation();
+    $('#project1').addClass('fadeInDown');
+    $('#project2').addClass('fadeInDown');
+    $('#project3').addClass('fadeInDown');
+    $('#project4').addClass('fadeInDown');
+    $('#project5').addClass('fadeInDown');
+    $('#project6').addClass('fadeInDown');
     $('#project1 .description').hide();
     $('#project2 .description').hide();
     $('#project3 .description').hide();
@@ -25,7 +31,6 @@
     $('#project6').mouseenter(showPr6);
     $('#project6').mouseleave(hidePr6);
     $('#project4 a').click(comingSoon);
-    $('#project5 a').click(comingSoon);
     $('#project6 a').click(comingSoon);
   }
 
